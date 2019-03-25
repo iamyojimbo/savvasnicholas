@@ -1,0 +1,69 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "color": "^3.1.0",
+    "gatsby": "^2.1.18",
+    "gatsby-image": "^2.0.30",
+    "gatsby-plugin-flow": "^1.0.2",
+    "gatsby-plugin-manifest": "^2.0.19",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-sharp": "^2.0.22",
+    "gatsby-plugin-styled-components": "^3.0.6",
+    "gatsby-plugin-typography": "^2.2.10",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-sharp": "^2.1.14",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-headroom": "^2.2.8",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.5.0",
+    "react-pose": "^4.0.8",
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.1.3",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "flow-bin": "^0.93.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "prettier": "^1.16.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "flow": "flow",
+    "dev": "node $NODE_DEBUG_OPTION ./node_modules/.bin/gatsby develop -p 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

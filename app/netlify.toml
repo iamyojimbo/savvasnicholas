@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "http://nervous-beaver-c4cc78.netlify.com/*"
+  to = "https://savvasnicholas.com/:splat"
+  force = true

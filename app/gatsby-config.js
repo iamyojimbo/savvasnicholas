@@ -45,6 +45,15 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          'http://nervous-beaver-c4cc78.netlify.com/*': [
+            'Basic-Auth: someuser:somepassword anotheruser:anotherpassword',
+          ],
+        }, // option to add more headers. `Link` headers are transformed by the below criteria
+      },
+    },
   ],
 }

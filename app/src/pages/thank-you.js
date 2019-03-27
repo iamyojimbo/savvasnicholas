@@ -9,7 +9,7 @@ import { rhythm, scale } from 'src/typography'
 import TaglineSection from 'src/components/tagline-section'
 
 const Container = styled.section`
-  padding: ${rhythm(4)};
+  padding-bottom: ${rhythm(4)};
   padding-top: ${rhythm(6)};
   background: ${theme.color.primary.dark};
 `
@@ -19,7 +19,13 @@ const ThankYouPage = () => (
     <SEO title='Thank You' />
     <Container>
       <TaglineSection
-        title={'Thank You!'}
+        title={
+          <>
+            Thank
+            <br />
+            you.
+          </>
+        }
         subtitle={`I aim to get back to all requests as soon as I can!`}
         colors={{
           backgroundColor: theme.color.primary.dark,

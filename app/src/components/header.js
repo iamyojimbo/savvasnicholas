@@ -8,6 +8,8 @@ import Button from 'src/components/button'
 import Headroom from 'react-headroom'
 import SideLinks from 'src/components/side-links'
 import Logo from 'src/components/logo'
+import { pageYOffsetSafe } from 'src/helpers'
+
 
 const HeaderContainer = styled.header`
   padding: ${rhythm(1 / 2)};
@@ -90,7 +92,7 @@ class Header extends Component<Props> {
     this.logoRef = React.createRef()
   }
   render() {
-    const scrollY = window.pageYOffset
+    const scrollY = pageYOffsetSafe()
     const { onContactMeClick } = this.props
     return (
       <Headroom

@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58229e41-0740-4e3a-b2a4-00c739ef4a38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/components/logo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/splash-background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/side-links.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/side-links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/tagline-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/tagline-section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/thank-you.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/thank-you.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/who-i-am.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/who-i-am.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/theme.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +30,7 @@
           <entry key="css" value="2" />
           <entry key="flowconfig" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="135" />
+          <entry key="js" value="138" />
           <entry key="json" value="7" />
           <entry key="prettierrc" value="4" />
           <entry key="rnc" value="8" />
@@ -59,7 +44,7 @@
           <entry key="CSS" value="2" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="136" />
+          <entry key="JavaScript" value="139" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="RNG Compact" value="8" />
           <entry key="SVG" value="16" />
@@ -71,7 +56,7 @@
           <entry key="dummy" value="1" />
           <entry key="flowconfig" value="1" />
           <entry key="gitignore" value="11" />
-          <entry key="js" value="42859" />
+          <entry key="js" value="43062" />
           <entry key="json" value="22" />
           <entry key="prettierrc" value="48" />
           <entry key="svg" value="22" />
@@ -83,7 +68,7 @@
           <entry key="HTML" value="2" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="70" />
-          <entry key="JavaScript" value="42308" />
+          <entry key="JavaScript" value="42511" />
           <entry key="Less" value="745" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="SVG" value="22" />
@@ -102,6 +87,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/components/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="92" column="38" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="38" />
+              <folding>
+                <element signature="e#9#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
@@ -113,11 +119,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/components/layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="335">
+              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -199,12 +217,13 @@
         <option value="$PROJECT_DIR$/app/src/components/tagline-section.js" />
         <option value="$PROJECT_DIR$/app/src/pages/who-i-am.js" />
         <option value="$PROJECT_DIR$/app/src/components/layout.js" />
-        <option value="$PROJECT_DIR$/app/src/components/header.js" />
         <option value="$PROJECT_DIR$/app/src/pages/thank-you.js" />
         <option value="$PROJECT_DIR$/app/src/theme.js" />
         <option value="$PROJECT_DIR$/app/src/components/splash-background.js" />
         <option value="$PROJECT_DIR$/app/src/pages/index.js" />
         <option value="$PROJECT_DIR$/app/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/app/src/components/header.js" />
+        <option value="$PROJECT_DIR$/app/src/helpers.js" />
       </list>
     </option>
   </component>
@@ -302,35 +321,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="logo-animation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -339,7 +329,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="gatsby-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;spla&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/splash-background.js&#10;theme&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/theme.js&#10;inde&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;thank&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;config&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;index&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;who&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/who-i-am.js&#10;tagli&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/tagline-section.js&#10;conta&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/contact-me.js&#10;head&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;cra&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;splash&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/logo.js&#10;header&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;button&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/button.js&#10;footer&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;images&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images&#10;layout&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/layout.js&#10;foo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;class&#9;ACTION&#9;GotoClass&#10;heade&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;typo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/typography.js&#10;crazy&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;seo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/seo.js&#10;gatsby-co&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;node&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;care&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;.svg&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;down-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;gats&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;packa&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;esl&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/.eslintrc.js&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;package&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;index.&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js" />
+    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;layout&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/layout.js&#10;onContactMeClick&#9;null&#9;null&#10;index&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;gatsby-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;spla&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/splash-background.js&#10;theme&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/theme.js&#10;inde&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;thank&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;config&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;who&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/who-i-am.js&#10;tagli&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/tagline-section.js&#10;conta&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/contact-me.js&#10;head&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;cra&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;splash&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/logo.js&#10;button&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/button.js&#10;footer&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;images&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images&#10;foo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;class&#9;ACTION&#9;GotoClass&#10;heade&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;typo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/typography.js&#10;crazy&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;seo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/seo.js&#10;gatsby-co&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;node&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;care&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;.svg&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;down-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;gats&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;packa&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;esl&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/.eslintrc.js&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;package&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;index.&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="last_opened_file_path" value="$USER_HOME$/.nvm/current/bin/node" />
@@ -453,18 +443,18 @@
       <workItem from="1551780944792" duration="16907000" />
       <workItem from="1551886703069" duration="10210000" />
       <workItem from="1552908825363" duration="30666000" />
-      <workItem from="1553162037962" duration="87905000" />
+      <workItem from="1553162037962" duration="88492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173075000" />
+    <option name="totallyTimeSpent" value="173662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5010142" side_tool="true" weight="0.24947146" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -479,7 +469,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flow" order="9" weight="0.23734939" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.3048193" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003524" side_tool="true" weight="0.3048193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -760,26 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="109" column="27" lean-forward="true" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
-          <folding>
-            <element signature="e#9#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pages/who-i-am.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -807,6 +777,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -817,10 +794,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/gatsby-config.js">
+    <entry file="file://$PROJECT_DIR$/app/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="80">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="38" />
+          <folding>
+            <element signature="e#9#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>

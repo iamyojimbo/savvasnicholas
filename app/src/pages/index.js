@@ -20,6 +20,7 @@ import ContactMe from 'src/components/contact-me'
 import background from 'src/images/background.jpg'
 import Logo from 'src/components/logo'
 import SplashBackground from 'src/components/splash-background'
+import { pageYOffsetSafe } from 'src/helpers'
 
 const Splash = styled.div`
   position: relative;
@@ -152,7 +153,7 @@ class IndexPage extends Component<Props, State> {
   }
   handleScroll = () => {
     const height = document.documentElement.clientHeight
-    const scrollY = window.pageYOffset
+    const scrollY = pageYOffsetSafe()
     const scrollRatio = scrollY / height
     this.setState({ scrollRatio })
   }

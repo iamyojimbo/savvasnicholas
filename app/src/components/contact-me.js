@@ -22,6 +22,7 @@ const Form = styled.form`
 
   input,
   textarea {
+    border-radius: 0;
     width: 100%;
     padding: ${rhythm(1 / 2)};
     display: block;
@@ -110,6 +111,7 @@ class ContactMe extends React.Component<State, Props> {
           <input
             id='email'
             type='email'
+            name='email'
             required
             placeholder={'bob@builder.com'}
           />
@@ -122,6 +124,7 @@ class ContactMe extends React.Component<State, Props> {
           </label>
           <textarea
             id='message'
+            name='message'
             className='projectProposal'
             placeholder={`...like to build a search algorithm for the meaning of life or something.`}
             required

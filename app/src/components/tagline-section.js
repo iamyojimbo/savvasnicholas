@@ -13,7 +13,7 @@ const TaglineContainer = styled.div`
     margin: auto;
     ${props => props.theme.media.phone`
       width: 100%;
-      padding: ${rhythm(2)};
+      padding: ${rhythm(0)} ${rhythm(2)};
     `}
   }
 `
@@ -42,14 +42,6 @@ const TaglineTitle = styled.h2`
     ${scale(1.5)}
     line-height: ${rhythm(1.5)};
   `};
-`
-const StripeContainer = styled.div`
-  background: ${props => props.backgroundColor};
-  width: 100%;
-`
-const StripeBoxSvg = styled.div`
-  height: ${rhythm(6)};
-  width: 100%;
 `
 
 function TaglineSection({

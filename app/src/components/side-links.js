@@ -21,12 +21,19 @@ export const SideLinksContainer = styled.div`
     margin-left: ${rhythm(1 / 2)};
     margin-left: ${rhythm(1 / 2)};
     height: ${rhythm(3 / 4)};
+    transition-duration: 0.25s;
   }
   a:visited {
     color: ${props => props.theme.color.contrast.main};
   }
   a:hover {
     color: ${props => props.theme.color.secondary.main};
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    transform: scale(1.3);
   }
 `
 const sideLinkSize = rhythm(3 / 4)

@@ -17,23 +17,29 @@ import Color from 'color'
 import CrazyText from 'src/components/crazy-text'
 import StripeBox from 'src/components/stripe-box'
 import ContactMe from 'src/components/contact-me'
+import background from 'src/images/background.jpg'
+import Logo from 'src/components/logo'
+import SplashBackground from 'src/components/splash-background'
 
 const Splash = styled.div`
+  position: relative;
   // background: ${props => props.theme.color.primary.dark};
   background: linear-gradient(${props =>
     props.theme.color.primary.dark} 10%, 80%, ${props =>
   props.theme.color.primary.light});
-  height: 100%;
+  background-size: cover;
+  height: 100vh;
   min-height: ${rhythm(21)};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: ${rhythm(1)};
+  padding-top: ${rhythm(2)};
   padding-bottom: ${rhythm(1)};
 
   ${props => props.theme.media.tablet`
     padding-left: ${rhythm(2)};
     padding-right: ${rhythm(2)};
+    padding-bottom: ${rhythm(4)};
   `}
 
   .topContainer {
@@ -60,6 +66,7 @@ const DownCaretImg = styled.img.attrs(({ opacity }) => ({
     opacity,
   },
 }))`
+  z-index: 999;
   margin: auto 0 0 0;
   text-align: center;
   flex-grow: 0;
@@ -67,42 +74,20 @@ const DownCaretImg = styled.img.attrs(({ opacity }) => ({
   height: ${rhythm(1)};
 `
 
-const LogoAnimate = posed(styled.img`
-  display: block;
-  opacity: 1;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-`)({
-  visible: {
-    opacity: 1,
-    transition: { delay: 500, duration: 1000 },
-  },
-  invisible: {
-    opacity: 0,
-    transition: { duration: 500 },
-  },
-})
-
-const LogoScrolled = styled.img`
-  position: absolute;
-  top: 0;
-  display: block;
-  opacity: ${props => props.opacity || 0};
-`
-
 const Section1 = styled.section`
-  background: ${props => props.theme.color.primary.dark};
+  background: #9a9a9a;
   margin: 0;
-  padding-top: ${rhythm(1)};
+  padding-top: ${rhythm(0)};
   text-align: ${props => props.align};
   box-shadow: 0px -4px ${props => props.theme.color.primary.dark};
 `
 
 const WhatIDo = styled.section`
   padding-top: ${rhythm(2)};
-  background: ${props => props.theme.color.primary.light};
-
+  //background: ${props => props.theme.color.primary.lightest};
+  background: linear-gradient(
+    ${props => props.theme.color.primary.lightest},
+    ${props => props.theme.color.primary.lightest});
   .container {
     width: 50%;
     margin: auto;
@@ -137,6 +122,7 @@ const WhatIDo = styled.section`
 const ContactMeSection = styled.section`
   background: ${props => props.theme.color.contrast.main};
   padding-bottom: ${rhythm(2)};
+  box-shadow: 0px -4px ${props => props.theme.color.contrast.main};
 `
 
 type Props = {
@@ -190,57 +176,56 @@ class IndexPage extends Component<Props, State> {
       ? 1 - this.state.scrollRatio * 3
       : 0
     const caretScrolledOpacity = 1.2 - this.state.scrollRatio * 2
-    const logoScrolled = (
-      <LogoScrolled opacity={logoScrolledOpacity} src={logo} />
-    )
-    const logoAnimate = (
-      <LogoAnimate
-        initialPose='none'
-        pose={this.state.isTransitionComplete ? 'invisible' : 'visible'}
-        // onPoseComplete={() => this.setState({ isTransitionComplete: true })}
-        src={logo}
-      />
-    )
+    const caretScrolledOpacityClipped =
+      caretScrolledOpacity > 1 ? 1 : caretScrolledOpacity
 
     return (
-      <Layout onContactMeClick={this.handleContactMeClick}>
+      <Layout onContactMeClick={this.handleContactMeClick} transparentHeader>
         <SEO title='Home' keywords={[`gatsby`, `application`, `react`]} />
         <Splash initialPose='none' pose='dark'>
+          <SplashBackground />
           <div className='topContainer'>
             <div className='logoContainer'>
-              {logoAnimate}
-              {/*{logoScrolled}*/}
+              <Logo withText />
             </div>
           </div>
-          <DownCaretImg opacity={caretScrolledOpacity} src={downCaret} />
+          <DownCaretImg opacity={caretScrolledOpacityClipped} src={downCaret} />
         </Splash>
         <WhatIDo>
           <div className='container'>
             <h2>
               <span className='h2Row light'>
-                <CrazyText baseColor={theme.color.secondary.main} range={1}>
+                <CrazyText
+                  mode='lighten'
+                  baseColor={theme.color.secondary.main}
+                  range={4}
+                >
                   Consultation.
                 </CrazyText>
               </span>
               <span className='h2Row dark'>
                 <CrazyText
-                  mode={'darken'}
-                  baseColor={theme.color.contrast.main}
-                  range={3}
+                  mode='lighten'
+                  baseColor={theme.color.primary.dark}
+                  range={1}
                 >
                   Custom Software.
                 </CrazyText>
               </span>
               <span className='h2Row light'>
-                <CrazyText baseColor={theme.color.secondary.main} range={3}>
+                <CrazyText
+                  mode='lighten'
+                  baseColor={theme.color.secondary.main}
+                  range={4}
+                >
                   Design & Development.
                 </CrazyText>
               </span>
               <span className='h2Row dark'>
                 <CrazyText
-                  mode={'darken'}
-                  baseColor={theme.color.contrast.main}
-                  range={3}
+                  mode='lighten'
+                  baseColor={theme.color.primary.dark}
+                  range={1}
                 >
                   Contracting Work.
                 </CrazyText>
@@ -249,8 +234,8 @@ class IndexPage extends Component<Props, State> {
           </div>
           <StripeBox
             colors={{
-              backgroundColor: theme.color.primary.light,
-              topStripe: theme.color.primary.dark,
+              backgroundColor: theme.color.primary.lightest,
+              topStripe: theme.color.primary.lightest,
               bottomStripe: theme.color.primary.dark,
               textColor: theme.color.contrast.main,
             }}

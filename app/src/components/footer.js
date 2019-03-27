@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import logoIcon from 'src/images/sn-logo-full.svg'
 import { rhythm } from 'src/typography'
 import SideLinks from 'src/components/side-links'
+import Logo from 'src/components/logo'
 
 const FooterContainer = styled.footer`
   display: flex;
@@ -11,7 +12,7 @@ const FooterContainer = styled.footer`
   height: ${rhythm(3)};
   padding: ${rhythm(0.5)};
   background: ${props => props.theme.color.primary.dark};
-  img {
+  .container {
     margin: 0;
     height: 100%;
   }
@@ -19,7 +20,9 @@ const FooterContainer = styled.footer`
 
 const Footer = () => (
   <FooterContainer>
-    <img src={logoIcon} />
+    <div className='container'>
+      <Logo withText />
+    </div>
     <SideLinks />
   </FooterContainer>
 )

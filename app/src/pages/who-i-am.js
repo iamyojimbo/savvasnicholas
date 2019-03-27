@@ -7,11 +7,10 @@ import TaglineSection from '../components/tagline-section'
 import theme from '../theme'
 import styled from 'styled-components'
 import { rhythm, scale } from 'src/typography'
-import Header from 'src/components/header'
 
 const WhoIAmSection = styled.section`
   background: ${props => props.theme.color.contrast.main};
-  padding-top: ${rhythm(2)};
+  padding-top: ${rhythm(4)};
   padding-bottom: ${rhythm(2)};
 `
 

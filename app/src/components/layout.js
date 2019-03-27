@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
 class Layout extends React.Component {
   render() {
-    const { children, onContactMeClick } = this.props
+    const { children, onContactMeClick, transparentHeader } = this.props
     return (
       <StaticQuery
         query={graphql`
@@ -32,7 +32,10 @@ class Layout extends React.Component {
           <ThemeProvider theme={theme}>
             <>
               <GlobalStyle />
-              <Header onContactMeClick={onContactMeClick} />
+              <Header
+                onContactMeClick={onContactMeClick}
+                transparent={transparentHeader}
+              />
               <main>{children}</main>
               <Footer />
             </>

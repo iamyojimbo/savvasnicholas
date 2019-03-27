@@ -36,6 +36,12 @@ const Button = styled.button`
     position: relative;
     top: 3px;
   }
+  transition-duration: 0.25s;
+  :hover,
+  :active,
+  :focus {
+    transform: scale(1.1);
+  }
 `
 
 export default Button

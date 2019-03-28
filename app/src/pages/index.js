@@ -21,6 +21,8 @@ import background from 'src/images/background.jpg'
 import Logo from 'src/components/logo'
 import SplashBackground from 'src/components/splash-background'
 import { pageYOffsetSafe } from 'src/helpers'
+import { TweenLite, ScrollToPlugin } from 'gsap/all'
+const plugins = [ScrollToPlugin]
 
 const Splash = styled.div`
   position: relative;
@@ -73,6 +75,7 @@ const DownCaretImg = styled.img.attrs(({ opacity }) => ({
   flex-grow: 0;
   color: ${props => props.theme.color.contrast.main};
   height: ${rhythm(1)};
+  cursor: pointer;
 `
 
 const Section1 = styled.section`
@@ -172,6 +175,10 @@ class IndexPage extends Component<Props, State> {
     }
   }
 
+  handleCaretClick = () => {
+    TweenLite.to(window, 1, { scrollTo: '#whatIDo' })
+  }
+
   render() {
     const logoScrolledOpacity = this.state.isTransitionComplete
       ? 1 - this.state.scrollRatio * 3
@@ -190,9 +197,13 @@ class IndexPage extends Component<Props, State> {
               <Logo withText />
             </div>
           </div>
-          <DownCaretImg opacity={caretScrolledOpacityClipped} src={downCaret} />
+          <DownCaretImg
+            opacity={caretScrolledOpacityClipped}
+            src={downCaret}
+            onClick={this.handleCaretClick}
+          />
         </Splash>
-        <WhatIDo>
+        <WhatIDo id='whatIDo'>
           <div className='container'>
             <h2>
               <span className='h2Row light'>

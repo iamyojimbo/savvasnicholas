@@ -111,7 +111,7 @@ const testimonials = [
 
 class Testimonials extends Component {
   render() {
-    const isMobile = Verge.viewportW() <= this.props.theme.breakpoints.phone
+    const isMobile = Verge.viewportW() <= this.props.theme.breakpoints.tablet
     const slidesToShow = isMobile ? 1 : 2
     const transitionMode = isMobile ? 'scroll' : 'scroll3d'
     return (

@@ -176,7 +176,7 @@ class IndexPage extends Component<Props, State> {
   }
 
   handleCaretClick = () => {
-    TweenLite.to(window, 1, { scrollTo: '#whatIDo' })
+    TweenLite.to(window, 1, { scrollTo: { y: '#whatIDo', autoKill: false } })
   }
 
   render() {
@@ -325,11 +325,17 @@ class IndexPage extends Component<Props, State> {
                 <br />
                 through
                 <br />
+                the
+                <br />
+                infinite
+                <br />
+                world
+                <br />
                 technology.
               </>
             }
-            subtitle={`I specialise in guiding you through the infinite world of technology to achieve your business
-            objectives through the use of technology.`}
+            subtitle={`I specialise in advising my clients on the limitless opportunities for automation and process
+            optimisation.`}
           />
         </Section1>
         <ContactMeSection name='contact-me'>

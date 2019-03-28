@@ -132,19 +132,26 @@ const TesimonialsSection = styled.section`
   background: ${props => theme.color.primary.lightest};
   text-align: left;
   .container {
-    width: 50%;
+    width: 100%;
+    text-align: center;
     margin: auto;
     padding-top: ${rhythm(2)};
     padding-bottom: ${rhythm(2)};
   }
 
-  ${props => props.theme.media.phone`
+  .wrapper {
+    display: inline-block;
+  }
+
+  ${props => props.theme.media.tablet`
     padding-top: 0;
     padding-bottom: 0;
     .container {
       width: 100%;
-      padding-left: ${rhythm(2)};
-      padding-right: ${rhythm(2)};
+    }
+    .wrapper {
+      width: 100%;
+      overflow-x: hidden;
     }
   `}
 `
@@ -384,7 +391,9 @@ class IndexPage extends Component<Props, State> {
             }
           />
           <div className='container'>
-            <Testimonials />
+            <div className='wrapper'>
+              <Testimonials />
+            </div>
           </div>
           <StripeBox
             colors={{

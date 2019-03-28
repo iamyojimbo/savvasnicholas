@@ -7,10 +7,27 @@ import { TweenLite, TimelineLite, CSSPlugin } from 'gsap/all'
 const plugins = [TweenLite, CSSPlugin]
 import Verge from 'verge'
 
+const itemWidth = 8
+const itemMargin = 1
+const scrollContainerPadding = 2
+const getWidth = nItems => {
+  const padding = 2 * scrollContainerPadding
+  const contentWidth = nItems * itemWidth + (nItems - 1) * itemMargin
+  return padding + contentWidth
+}
+
 const Container = styled.div`
-  //display: flex;
-  //justify-content: center;
-  //flex-wrap: wrap;
+  width: ${({ nShow, isMobile }) => isMobile ? 'inherit' : rhythm(getWidth(nShow) - 1.5)};
+  overflow-x: scroll;
+  padding: ${rhythm(1)} 0;
+  text-align: left;
+`
+
+const ScrollContainer = styled.div`
+  padding: 0 ${rhythm(scrollContainerPadding)};
+  width: ${({ nItems }) => rhythm(getWidth(nItems))};
+  display: flex;
+  align-items: flex-start;
 `
 
 class TestimonialComp extends Component {
@@ -31,6 +48,11 @@ class TestimonialComp extends Component {
 
 const Testimonial = styled(TestimonialComp)`
   opacity: 1;
+  margin-right: ${rhythm(itemMargin)};
+  :last-child {
+    margin: 0;
+  }
+  width: ${rhythm(8)};
   background: ${props => props.theme.color.contrast.main};
   .top {
     background: ${props => props.theme.color.primary.main};
@@ -110,35 +132,39 @@ const testimonials = [
 ]
 
 class Testimonials extends Component {
+  state = {
+    currentSlide: 0,
+  }
+  timer
+  scrollContainerRef = React.createRef()
+
+  nextSlide = () => {
+    const nextSlide = (this.state.currentSlide + 1) % testimonials.length
+    this.setState({ currentSlide: nextSlide })
+    console.log(this)
+  }
+
+  componentDidMount() {
+    // this.timer = setInterval(this.nextSlide, 2000)
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer)
+  }
+
   render() {
     const isMobile = Verge.viewportW() <= this.props.theme.breakpoints.tablet
-    const slidesToShow = isMobile ? 1 : 2
-    const transitionMode = isMobile ? 'scroll' : 'scroll3d'
     return (
-      <>
-        <Container>
-          <Carousel
-            slideIndex={1}
-            slidesToShow={slidesToShow}
-            framePadding={rhythm(1 / 4)}
-            autoplay
-            autoplayInterval={2000}
-            cellSpacing={20}
-            transitionMode={transitionMode}
-            wrapAround
-            renderBottomCenterControls={null}
-            renderCenterLeftControls={null}
-            renderCenterRightControls={null}
-          >
-            {testimonials.map((t, i) => (
-              <Testimonial
-                key={i}
-                {...t}
-              />
-            ))}
-          </Carousel>
-        </Container>
-      </>
+      <Container nShow={3} isMobile={isMobile}>
+        <ScrollContainer
+          nItems={testimonials.length}
+          ref={div => (this.scrollContainerRef = div)}
+        >
+          {testimonials.map((t, i) => (
+            <Testimonial key={i} {...t} />
+          ))}
+        </ScrollContainer>
+      </Container>
     )
   }
 }

@@ -130,7 +130,7 @@ class Testimonials extends Component {
             renderCenterLeftControls={null}
             renderCenterRightControls={null}
           >
-            {testimonials.map((t, i, a) => (
+            {testimonials.map((t, i) => (
               <Testimonial
                 key={i}
                 {...t}

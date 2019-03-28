@@ -22,6 +22,7 @@ import Logo from 'src/components/logo'
 import SplashBackground from 'src/components/splash-background'
 import { pageYOffsetSafe } from 'src/helpers'
 import { TweenLite, ScrollToPlugin } from 'gsap/all'
+import Testimonials from 'src/components/testimonials'
 const plugins = [ScrollToPlugin]
 
 const Splash = styled.div`
@@ -95,6 +96,7 @@ const WhatIDo = styled.section`
   .container {
     width: 50%;
     margin: auto;
+    padding-bottom: ${rhythm(2)};
     ${props => props.theme.media.phone`
       padding-left: ${rhythm(2)};
       padding-right: ${rhythm(2)};
@@ -106,27 +108,45 @@ const WhatIDo = styled.section`
     width: 100%;
     display: block;
   }
+`
 
-  h2 .light {
-    color: ${props => props.theme.color.secondary.main};
-  }
-  h2 {
-    margin: auto auto ${rhythm(2)};
-    ${scale(1.5)};
-    line-height: ${rhythm(1.75)};
-    color: ${props => props.theme.color.contrast.main};
-    ${props => props.theme.media.phone`
+const SectionTitle = styled.h2`
+  margin: auto auto 0;
+  ${scale(1.5)};
+  line-height: ${rhythm(1.75)};
+  color: ${props => props.theme.color.contrast.main};
+  ${props => props.theme.media.phone`
       ${scale(0.75)};
-      line-height: ${rhythm(1.25)};
+      line-height: ${rhythm(1)};
       width: 100%;
-    `}
-  }
+  `}
 `
 
 const ContactMeSection = styled.section`
   background: ${props => props.theme.color.contrast.main};
   padding-bottom: ${rhythm(2)};
   box-shadow: 0px -4px ${props => props.theme.color.contrast.main};
+`
+
+const TesimonialsSection = styled.section`
+  background: ${props => theme.color.primary.lightest};
+  text-align: left;
+  .container {
+    width: 50%;
+    margin: auto;
+    padding-top: ${rhythm(2)};
+    padding-bottom: ${rhythm(2)};
+  }
+
+  ${props => props.theme.media.phone`
+    padding-top: 0;
+    padding-bottom: 0;
+    .container {
+      width: 100%;
+      padding-left: ${rhythm(2)};
+      padding-right: ${rhythm(2)};
+    }
+  `}
 `
 
 type Props = {
@@ -205,7 +225,7 @@ class IndexPage extends Component<Props, State> {
         </Splash>
         <WhatIDo id='whatIDo'>
           <div className='container'>
-            <h2>
+            <SectionTitle>
               <span className='h2Row light'>
                 <CrazyText
                   mode='lighten'
@@ -242,7 +262,7 @@ class IndexPage extends Component<Props, State> {
                   Contracting Work.
                 </CrazyText>
               </span>
-            </h2>
+            </SectionTitle>
           </div>
           <StripeBox
             colors={{
@@ -312,7 +332,7 @@ class IndexPage extends Component<Props, State> {
             colors={{
               backgroundColor: theme.color.primary.main,
               topStripe: theme.color.contrast.main,
-              bottomStripe: theme.color.contrast.main,
+              bottomStripe: theme.color.primary.lightest,
               textColor: theme.color.contrast.main,
             }}
             align='left'
@@ -338,6 +358,43 @@ class IndexPage extends Component<Props, State> {
             optimisation.`}
           />
         </Section1>
+        <TesimonialsSection>
+          <TaglineSection
+            crazyTextRange={1}
+            colors={{
+              backgroundColor: theme.color.primary.lightest,
+              topStripe: theme.color.contrast.main,
+              bottomStripe: theme.color.contrast.main,
+              textColor: theme.color.contrast.main,
+            }}
+            align='right'
+            title={
+              <>
+                I<br />
+                am
+                <br />
+                grateful
+                <br />
+                for the
+                <br />
+                following
+                <br />
+                eulogies.
+              </>
+            }
+          />
+          <div className='container'>
+            <Testimonials />
+          </div>
+          <StripeBox
+            colors={{
+              backgroundColor: theme.color.primary.lightest,
+              topStripe: theme.color.primary.lightest,
+              bottomStripe: theme.color.contrast.main,
+              textColor: theme.color.contrast.main,
+            }}
+          />
+        </TesimonialsSection>
         <ContactMeSection name='contact-me'>
           <ContactMe
             ref={this.contactMeRef}

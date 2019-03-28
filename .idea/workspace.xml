@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58229e41-0740-4e3a-b2a4-00c739ef4a38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/components/testimonials.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/testimonials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/contact-me.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/contact-me.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,14 +35,15 @@
           <entry key="css" value="2" />
           <entry key="flowconfig" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="144" />
+          <entry key="js" value="156" />
           <entry key="json" value="7" />
           <entry key="prettierrc" value="4" />
-          <entry key="rnc" value="8" />
+          <entry key="rnc" value="9" />
           <entry key="svg" value="17" />
+          <entry key="testimonials" value="2" />
           <entry key="thank-you" value="1" />
           <entry key="toml" value="1" />
-          <entry key="ts" value="3" />
+          <entry key="ts" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -44,11 +51,11 @@
           <entry key="CSS" value="2" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="145" />
+          <entry key="JavaScript" value="159" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="RNG Compact" value="8" />
+          <entry key="RNG Compact" value="9" />
           <entry key="SVG" value="17" />
-          <entry key="TypeScript" value="3" />
+          <entry key="TypeScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,7 +63,7 @@
           <entry key="dummy" value="1" />
           <entry key="flowconfig" value="1" />
           <entry key="gitignore" value="11" />
-          <entry key="js" value="44019" />
+          <entry key="js" value="49372" />
           <entry key="json" value="22" />
           <entry key="prettierrc" value="48" />
           <entry key="svg" value="22" />
@@ -69,8 +76,8 @@
           <entry key="HTML" value="2" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="70" />
-          <entry key="JavaScript" value="43464" />
-          <entry key="Less" value="749" />
+          <entry key="JavaScript" value="48715" />
+          <entry key="Less" value="851" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="SVG" value="22" />
         </counts>
@@ -87,13 +94,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+            <state relative-caret-position="-1663">
+              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
               <folding>
                 <element signature="e#10#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/components/side-links.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/node_modules/nuka-carousel/index.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/components/contact-me.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+              <folding>
+                <element signature="e#9#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/pages/testimonials.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/components/logo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-962">
+              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+              <folding>
+                <element signature="e#9#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>theme</find>
       <find>isVisible</find>
       <find>cosole</find>
       <find>background</find>
@@ -123,6 +207,11 @@
       <find>box-sha</find>
       <find>pageY</find>
       <find>caret</find>
+      <find>theme</find>
+      <find>withTheme</find>
+      <find>cons</find>
+      <find>flex</find>
+      <find>console.log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,10 +250,12 @@
         <option value="$PROJECT_DIR$/app/src/helpers.js" />
         <option value="$PROJECT_DIR$/app/gatsby-node.js" />
         <option value="$PROJECT_DIR$/app/netlify.toml" />
-        <option value="$PROJECT_DIR$/app/src/components/contact-me.js" />
         <option value="$PROJECT_DIR$/app/src/pages/thank-you.js" />
         <option value="$PROJECT_DIR$/app/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/app/src/components/contact-me.js" />
+        <option value="$PROJECT_DIR$/app/src/pages/testimonials.js" />
         <option value="$PROJECT_DIR$/app/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/app/src/components/testimonials.js" />
       </list>
     </option>
   </component>
@@ -262,6 +353,20 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -270,7 +375,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/node_modules/react-headroom/dist/index.js&#10;downca&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;inde&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;than&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;conta&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/contact-me.js&#10;gat&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;gatsby&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;header&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;layout&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/layout.js&#10;onContactMeClick&#9;null&#9;null&#10;gatsby-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;spla&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/splash-background.js&#10;theme&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/theme.js&#10;thank&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;config&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;who&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/who-i-am.js&#10;tagli&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/tagline-section.js&#10;head&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;cra&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;splash&#9;null&#9;null&#10;logo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/logo.js&#10;button&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/button.js&#10;footer&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;images&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images&#10;foo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;class&#9;ACTION&#9;GotoClass&#10;heade&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;typo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/typography.js&#10;crazy&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;seo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/seo.js&#10;gatsby-co&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;node&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;care&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;.svg&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;down-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;gats&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;packa&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;esl&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/.eslintrc.js&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;package&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;index.&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js" />
+    <property name="SearchEverywhereHistoryKey" value="theme&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/theme.js&#10;helper&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/helpers.js&#10;links&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/side-links.js&#10;conta&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/contact-me.js&#10;logo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/logo.js&#10;index&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/node_modules/react-headroom/dist/index.js&#10;downca&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;inde&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;than&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;gat&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;gatsby&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;header&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;layout&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/layout.js&#10;onContactMeClick&#9;null&#9;null&#10;gatsby-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;spla&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/splash-background.js&#10;thank&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;config&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;who&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/who-i-am.js&#10;tagli&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/tagline-section.js&#10;head&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;cra&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;splash&#9;null&#9;null&#10;button&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/button.js&#10;footer&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;images&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images&#10;foo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;class&#9;ACTION&#9;GotoClass&#10;heade&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;typo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/typography.js&#10;crazy&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;seo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/seo.js&#10;gatsby-co&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;node&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;care&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;.svg&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;down-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;gats&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;packa&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;esl&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/.eslintrc.js&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;package&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;index.&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="last_opened_file_path" value="$USER_HOME$/.nvm/current/bin/node" />
@@ -384,12 +489,12 @@
       <workItem from="1551780944792" duration="16907000" />
       <workItem from="1551886703069" duration="10210000" />
       <workItem from="1552908825363" duration="30666000" />
-      <workItem from="1553162037962" duration="91848000" />
+      <workItem from="1553162037962" duration="109642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177018000" />
+    <option name="totallyTimeSpent" value="194812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -402,7 +507,7 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.25180724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.25180724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +515,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flow" order="9" weight="0.23734939" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.3048193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003524" side_tool="true" weight="0.3048193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -423,32 +528,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/src/components/contact-me.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/.prettierrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/layout.css" />
-    <entry file="file://$PROJECT_DIR$/app/node_modules/@babel/parser/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="6602" lean-forward="true" selection-start-line="6602" selection-end-line="6602" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/images/sn-logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/gatsby-browser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -519,24 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="417" column="8" selection-start-line="417" selection-start-column="8" selection-end-line="417" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="322" column="16" selection-start-line="322" selection-start-column="16" selection-end-line="322" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -571,32 +649,12 @@
     <entry file="file://$PROJECT_DIR$/app/src/images/logo-animation/lines-left.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="43" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/components/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#9#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/side-links.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-          <folding>
-            <element signature="e#9#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pages/who-i-am.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -648,13 +696,6 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -722,27 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/contact-me.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="e#9#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -759,12 +783,121 @@
     <entry file="file://$PROJECT_DIR$/app/node_modules/react-headroom/dist/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/testimonials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/node_modules/gsap/src/minified/TimelineLite.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="2247" selection-start-line="11" selection-start-column="2247" selection-end-line="11" selection-end-column="2247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/node_modules/nuka-carousel/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="184" column="2" selection-start-line="184" selection-start-column="2" selection-end-line="184" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-962">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding>
+            <element signature="e#9#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/contact-me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <element signature="e#9#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/side-links.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="536" column="8" selection-start-line="536" selection-start-column="8" selection-end-line="536" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+        <state relative-caret-position="-1663">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
           <folding>
             <element signature="e#10#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/node_modules/verge/verge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

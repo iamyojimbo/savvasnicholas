@@ -47,12 +47,10 @@ class ContactMe extends React.Component<State, Props> {
   inputRef: any
   constructor(props) {
     super(props)
-    console.log('ContactMe', this)
     this.inputRef = React.createRef()
   }
 
   focusFirstInput = () => {
-    console.log('focussing')
     this.inputRef.current.focus()
   }
 

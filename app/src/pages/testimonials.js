@@ -14,7 +14,7 @@ const Container = styled.section`
 `
 
 const Testimonails = styled.div`
-  padding: 0 ${rhythm(2)};
+  padding: 0 ${rhythm(0.5)};
   .wrapper {
     padding-bottom: ${rhythm(1)};
   }

@@ -10,7 +10,6 @@ import SideLinks from 'src/components/side-links'
 import Logo from 'src/components/logo'
 import { pageYOffsetSafe } from 'src/helpers'
 
-
 const HeaderContainer = styled.header`
   padding: ${rhythm(1 / 2)};
   display: flex;
@@ -61,14 +60,9 @@ const HeaderNav = styled.nav`
 const HeaderNavItem = styled.div`
   padding: 0 ${rhythm(1 / 2)};
   transition-duration: 0.25s;
-  :hover,
-  :active,
-  :focus {
-    transform: scale(1.1);
-  }
 `
 
-const HeaderNavLink = styled(Link)`
+export const HeaderNavLink = styled(Link)`
   color: ${props => props.theme.color.contrast.main};
   font-weight: bolder;
   text-decoration: none;
@@ -77,6 +71,12 @@ const HeaderNavLink = styled(Link)`
   :hover {
     text-decoration: underline;
     color: white;
+  }
+  transition-duration: 0.25s;
+  :hover,
+  :active,
+  :focus {
+    transform: scale(1.1);
   }
 `
 type Props = {
@@ -99,7 +99,9 @@ class Header extends Component<Props> {
         onPin={() => this.logoRef.current.restart()}
         wrapperStyle={{ position: 'absolute', width: '100%' }}
       >
-        <HeaderContainer isTransparrent={this.props.transparent && (scrollY <= 0) }>
+        <HeaderContainer
+          isTransparrent={this.props.transparent && scrollY <= 0}
+        >
           <HeaderLogoIconLink to='/'>
             <LogoContainer>
               <Logo ref={this.logoRef} />

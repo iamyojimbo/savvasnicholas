@@ -15,6 +15,15 @@ const media = Object.keys(breakpoints).reduce((acc, label) => {
   return acc
 }, {})
 
+const mediaMin = Object.keys(breakpoints).reduce((acc, label) => {
+  acc[label] = (...args) => css`
+    @media (min-width: ${breakpoints[label] / 16}em) {
+      ${css(...args)}
+    }
+  `
+  return acc
+}, {})
+
 export default {
   color: {
     primary: {
@@ -41,4 +50,5 @@ export default {
   },
   breakpoints,
   media,
+  mediaMin
 }

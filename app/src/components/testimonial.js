@@ -96,8 +96,8 @@ export const TestimonialHorizontal = styled(Testimonial)`
   `}
 `
 
-const SeeAllTestimonialsComp = ({ className }) => (
-  <div className={className}>
+const SeeAllTestimonialsComp = ({ className, _ref }) => (
+  <div className={className} ref={_ref}>
     <div className='content'>
       <HeaderNavLink to='/testimonials'>See more...</HeaderNavLink>
     </div>

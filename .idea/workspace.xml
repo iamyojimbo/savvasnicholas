@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58229e41-0740-4e3a-b2a4-00c739ef4a38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/crazy-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/crazy-text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/tagline-section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/tagline-section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/testimonial.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/testimonial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/testimonials.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/testimonials.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +30,7 @@
           <entry key="css" value="2" />
           <entry key="flowconfig" value="3" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="182" />
+          <entry key="js" value="185" />
           <entry key="json" value="9" />
           <entry key="prettierrc" value="4" />
           <entry key="rnc" value="11" />
@@ -49,7 +46,7 @@
           <entry key="CSS" value="2" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="185" />
+          <entry key="JavaScript" value="188" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="11" />
           <entry key="SVG" value="17" />
@@ -61,7 +58,7 @@
           <entry key="dummy" value="1" />
           <entry key="flowconfig" value="1" />
           <entry key="gitignore" value="11" />
-          <entry key="js" value="58124" />
+          <entry key="js" value="58642" />
           <entry key="json" value="28" />
           <entry key="prettierrc" value="48" />
           <entry key="svg" value="22" />
@@ -74,7 +71,7 @@
           <entry key="HTML" value="2" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="76" />
-          <entry key="JavaScript" value="57323" />
+          <entry key="JavaScript" value="57841" />
           <entry key="Less" value="995" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="SVG" value="22" />
@@ -93,88 +90,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/components/header.js">
+        <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="e#9#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="256" column="20" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="20" />
-              <folding>
-                <element signature="e#10#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/components/contact-me.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-              <folding>
-                <element signature="e#9#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-              <folding>
-                <element signature="e#8#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/components/tagline-section.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/data.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/components/testimonial.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="230">
+              <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -183,24 +111,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
+        <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
+            <state relative-caret-position="216">
+              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pages/testimonials.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#8#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -276,9 +192,7 @@
         <option value="$PROJECT_DIR$/app/src/pages/thank-you.js" />
         <option value="$PROJECT_DIR$/app/gatsby-config.js" />
         <option value="$PROJECT_DIR$/app/src/components/testimonials-old.js" />
-        <option value="$PROJECT_DIR$/app/src/components/testimonials.js" />
         <option value="$PROJECT_DIR$/app/src/theme.js" />
-        <option value="$PROJECT_DIR$/app/src/components/testimonial.js" />
         <option value="$PROJECT_DIR$/app/src/data.js" />
         <option value="$PROJECT_DIR$/app/src/components/header.js" />
         <option value="$PROJECT_DIR$/app/src/pages/testimonials.js" />
@@ -287,6 +201,8 @@
         <option value="$PROJECT_DIR$/app/package.json" />
         <option value="$PROJECT_DIR$/app/src/components/crazy-text.js" />
         <option value="$PROJECT_DIR$/app/src/components/tagline-section.js" />
+        <option value="$PROJECT_DIR$/app/src/components/testimonials.js" />
+        <option value="$PROJECT_DIR$/app/src/components/testimonial.js" />
       </list>
     </option>
   </component>
@@ -386,6 +302,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="savvasnicholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="savvasnicholas" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -394,7 +317,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="package&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;index&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;cra&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;theme&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/theme.js&#10;data&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/data.js&#10;who&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/who-i-am.js&#10;inde&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;tes&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/testimonials.js&#10;helper&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/helpers.js&#10;links&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/side-links.js&#10;conta&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/contact-me.js&#10;logo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/logo.js&#10;downca&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;than&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;gat&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;gatsby&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;header&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;layout&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/layout.js&#10;onContactMeClick&#9;null&#9;null&#10;gatsby-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;spla&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/splash-background.js&#10;thank&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;config&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;tagli&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/tagline-section.js&#10;head&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;splash&#9;null&#9;null&#10;button&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/button.js&#10;footer&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;images&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images&#10;foo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;class&#9;ACTION&#9;GotoClass&#10;heade&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;typo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/typography.js&#10;crazy&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;seo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/seo.js&#10;gatsby-co&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;node&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;care&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;.svg&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;down-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;gats&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;packa&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;esl&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/.eslintrc.js&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;index.&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js" />
+    <property name="SearchEverywhereHistoryKey" value="testimo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/testimonials.js&#10;testi&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/testimonials.js&#10;package&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;index&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;cra&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;theme&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/theme.js&#10;data&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/data.js&#10;who&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/who-i-am.js&#10;inde&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js&#10;tes&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/testimonials.js&#10;helper&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/helpers.js&#10;links&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/side-links.js&#10;conta&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/contact-me.js&#10;logo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/logo.js&#10;downca&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;than&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;gat&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;gatsby&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;header&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;layout&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/layout.js&#10;onContactMeClick&#9;null&#9;null&#10;gatsby-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;spla&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/splash-background.js&#10;thank&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/thank-you.js&#10;config&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;tagli&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/tagline-section.js&#10;head&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;splash&#9;null&#9;null&#10;button&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/button.js&#10;footer&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;images&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images&#10;foo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/footer.js&#10;class&#9;ACTION&#9;GotoClass&#10;heade&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/header.js&#10;typo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/typography.js&#10;crazy&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/crazy-text.js&#10;seo&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/components/seo.js&#10;gatsby-co&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;node&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-node.js&#10;care&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;.svg&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;down-c&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/images/down-caret.svg&#10;gats&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/gatsby-config.js&#10;packa&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/package.json&#10;esl&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/.eslintrc.js&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;index.&#9;FILE&#9;file:///Users/savvas/code/savvasnicholas/app/src/pages/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="last_opened_file_path" value="$USER_HOME$/.nvm/current/bin/node" />
@@ -511,18 +434,18 @@
       <workItem from="1551780944792" duration="16907000" />
       <workItem from="1551886703069" duration="10210000" />
       <workItem from="1552908825363" duration="30666000" />
-      <workItem from="1553162037962" duration="141206000" />
+      <workItem from="1553162037962" duration="142689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226376000" />
+    <option name="totallyTimeSpent" value="227859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5010142" side_tool="true" weight="0.24947146" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -537,7 +460,7 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Flow" order="9" weight="0.23734939" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.3048193" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003524" side_tool="true" weight="0.3048193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -825,64 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="e#9#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/testimonial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/pages/testimonials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/node_modules/@babel/parser/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="2745" column="17" selection-start-line="2745" selection-start-column="17" selection-end-line="2745" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -893,13 +762,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
+    <entry file="file://$PROJECT_DIR$/app/src/pages/testimonials.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="321">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
-            <element signature="e#8#48#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/tagline-section.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -923,12 +816,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/tagline-section.js">
+    <entry file="file://$PROJECT_DIR$/app/src/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        <state relative-caret-position="265">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#9#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#8#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/testimonial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

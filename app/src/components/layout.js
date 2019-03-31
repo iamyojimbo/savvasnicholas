@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
 	   text-rendering: optimizeLegibility;
+	   overflow-x: hidden; // prevent animations that go off-screen from causing side-scroll
   }
 `
 

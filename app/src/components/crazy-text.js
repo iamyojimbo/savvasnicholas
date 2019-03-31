@@ -25,11 +25,12 @@ class CrazyText extends Component<Props, State> {
     rightEntry: false,
   }
   state = {
-    isPaused: false,
+    isPaused: true,
   }
   textToSplitElement = null
   entryTimeline = null
   randomTimelines = []
+  elements = null
 
   randomColorsAnimation(elements: any) {
     const self = this
@@ -56,23 +57,26 @@ class CrazyText extends Component<Props, State> {
   }
 
   handleEnter = () => {
+    console.log('Enter')
+    this.randomColorsAnimation(this.elements)
     this.entryTimeline.play()
     this.setState({ isPaused: false })
     this.randomTimelines.forEach(tl => tl.play())
   }
 
   handleExit = () => {
+    console.log('Exit')
     this.entryTimeline.reverse()
     this.setState({ isPaused: true })
     this.randomTimelines.forEach(tl => tl.pause())
   }
 
   componentDidMount() {
-    const elements = new SplitText(this.textToSplitElement)
-    this.randomColorsAnimation(elements)
+    this.elements = new SplitText(this.textToSplitElement)
+    // this.randomColorsAnimation(elements)
 
     this.entryTimeline = new TimelineLite({ paused: true }).staggerFrom(
-      elements.lines,
+      this.elements.lines,
       2,
       {
         autoAlpha: 0,

@@ -57,7 +57,7 @@
           <entry key="dummy" value="1" />
           <entry key="flowconfig" value="1" />
           <entry key="gitignore" value="11" />
-          <entry key="js" value="59418" />
+          <entry key="js" value="59543" />
           <entry key="json" value="28" />
           <entry key="prettierrc" value="48" />
           <entry key="svg" value="22" />
@@ -70,7 +70,7 @@
           <entry key="HTML" value="2" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="76" />
-          <entry key="JavaScript" value="58616" />
+          <entry key="JavaScript" value="58741" />
           <entry key="Less" value="996" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="SVG" value="22" />
@@ -124,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="174">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#8#48#0" expanded="true" />
               </folding>
@@ -445,12 +445,12 @@
       <workItem from="1551780944792" duration="16907000" />
       <workItem from="1551886703069" duration="10210000" />
       <workItem from="1552908825363" duration="30666000" />
-      <workItem from="1553162037962" duration="145301000" />
+      <workItem from="1553162037962" duration="145963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230471000" />
+    <option name="totallyTimeSpent" value="231133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -856,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="174">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#8#48#0" expanded="true" />
           </folding>

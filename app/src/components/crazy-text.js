@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 import Color from 'color'
 import { array } from 'prop-types'
 import SplitText from 'src/gsap-plugins/SplitText'
-import { TimelineMax, Circ } from 'gsap/all'
+import { TimelineLite, TimelineMax, Circ } from 'gsap/all'
+import { Waypoint } from 'react-waypoint'
 
 type State = {
   elements: array,
@@ -14,30 +15,25 @@ type Props = {
   baseColor: any,
   mode: string,
   range: number,
+  rightEntry: boolean,
 }
 
 class CrazyText extends Component<Props, State> {
   static defaultProps = {
     mode: 'lighten',
     range: 1,
+    rightEntry: false,
   }
   state = {
     elements: [],
     pose: 'light',
   }
   textToSplitElement = null
-  timeline = null
+  entryTimeline = null
 
-  componentDidMount() {
-    const elements = new SplitText(this.textToSplitElement)
-    this.setState({ elements })
-    this.timeline = new TimelineMax({})
-    const colorObj = new Color(this.props.baseColor)
-    const toColor = colorObj[this.props.mode](this.props.range)
-
+  randomColorsAnimation(elements: any) {
     const self = this
-
-    let i = 0
+    const colorObj = new Color(this.props.baseColor)
     elements.chars.forEach(char => {
       ;(function animate() {
         const duration = Math.random() * 0.5 + 0.3
@@ -56,11 +52,32 @@ class CrazyText extends Component<Props, State> {
     })
   }
 
+  componentDidMount() {
+    const elements = new SplitText(this.textToSplitElement)
+    this.randomColorsAnimation(elements)
+
+    this.entryTimeline = new TimelineLite({ paused: true }).staggerFrom(
+      elements.lines,
+      2,
+      {
+        autoAlpha: 0,
+        delay: 0.2,
+        x: this.props.rightEntry ? 100 : -100,
+      },
+      0.1
+    )
+  }
+
   render() {
     return (
-      <span ref={x => (this.textToSplitElement = x)}>
-        {this.props.children}
-      </span>
+      <Waypoint
+        onEnter={() => this.entryTimeline.play()}
+        onLeave={() => this.entryTimeline.reverse()}
+      >
+        <span ref={x => (this.textToSplitElement = x)}>
+          {this.props.children}
+        </span>
+      </Waypoint>
     )
   }
 }

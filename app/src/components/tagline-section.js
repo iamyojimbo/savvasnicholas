@@ -60,6 +60,7 @@ function TaglineSection({
           <CrazyText
             range={crazyTextRange}
             baseColor={theme.color.secondary.main}
+            rightEntry={align === 'right'}
           >
             {title}
           </CrazyText>

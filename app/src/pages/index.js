@@ -1,23 +1,16 @@
 // @flow
 
 import React, { Component } from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
-import posed from 'react-pose'
-import Header from 'src/components/header'
 import Layout from 'src/components/layout'
 import SEO from 'src/components/seo'
-import logo from 'src/images/sn-logo-full.svg'
-import titleText from 'src/images/title-text.svg'
 import downCaret from 'src/images/down-caret.svg'
 import theme from 'src/theme'
 import { rhythm, scale } from 'src/typography'
 import TaglineSection from 'src/components/tagline-section'
-import Color from 'color'
 import CrazyText from 'src/components/crazy-text'
 import StripeBox from 'src/components/stripe-box'
 import ContactMe from 'src/components/contact-me'
-import background from 'src/images/background.jpg'
 import Logo from 'src/components/logo'
 import SplashBackground from 'src/components/splash-background'
 import { pageYOffsetSafe } from 'src/helpers'
@@ -217,7 +210,7 @@ class IndexPage extends Component<Props, State> {
                 <CrazyText
                   mode='lighten'
                   baseColor={theme.color.secondary.main}
-                  range={4}
+                  range={0.5}
                 >
                   Consultation.
                 </CrazyText>
@@ -226,7 +219,7 @@ class IndexPage extends Component<Props, State> {
                 <CrazyText
                   mode='lighten'
                   baseColor={theme.color.primary.dark}
-                  range={1}
+                  range={0.5}
                 >
                   Custom Software.
                 </CrazyText>
@@ -235,7 +228,7 @@ class IndexPage extends Component<Props, State> {
                 <CrazyText
                   mode='lighten'
                   baseColor={theme.color.secondary.main}
-                  range={4}
+                  range={0.5}
                 >
                   Design & Development.
                 </CrazyText>
@@ -244,7 +237,7 @@ class IndexPage extends Component<Props, State> {
                 <CrazyText
                   mode='lighten'
                   baseColor={theme.color.primary.dark}
-                  range={1}
+                  range={0.5}
                 >
                   Contracting Work.
                 </CrazyText>
@@ -262,7 +255,7 @@ class IndexPage extends Component<Props, State> {
         </WhatIDo>
         <Section1>
           <TaglineSection
-            crazyTextRange={1}
+            crazyTextRange={0.7}
             hasBottomStripe
             colors={{
               backgroundColor: theme.color.primary.dark,
@@ -287,7 +280,7 @@ class IndexPage extends Component<Props, State> {
         solve your exact business problem.`}
           />
           <TaglineSection
-            crazyTextRange={2}
+            crazyTextRange={0.3}
             hasBottomStripe
             colors={{
               backgroundColor: theme.color.contrast.main,
@@ -314,7 +307,7 @@ class IndexPage extends Component<Props, State> {
               highest standards, using cutting edge techniques and technology.`}
           />
           <TaglineSection
-            crazyTextRange={1}
+            crazyTextRange={0.5}
             hasBottomStripe
             colors={{
               backgroundColor: theme.color.primary.main,
@@ -347,7 +340,7 @@ class IndexPage extends Component<Props, State> {
         </Section1>
         <TesimonialsSection>
           <TaglineSection
-            crazyTextRange={1}
+            crazyTextRange={0.5}
             colors={{
               backgroundColor: theme.color.primary.lightest,
               topStripe: theme.color.contrast.main,

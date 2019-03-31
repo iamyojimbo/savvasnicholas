@@ -1,34 +1,9 @@
 //@flow
 import React, { Component } from 'react'
-import styled from 'styled-components'
-import posed from 'react-pose'
-import _ from 'lodash'
 import Color from 'color'
 import { array } from 'prop-types'
-
-const Letters = posed.span({
-  light: {},
-  dark: {},
-})
-
-const Letter = posed(styled.span`
-  color: ${props => props.minColor};
-`)({
-  dark: {
-    color: ({ minColor }) => minColor,
-    transition: () => ({
-      duration: Math.random() * 500 + 50,
-      delay: Math.random() * 500 + 10,
-    }),
-  },
-  light: {
-    color: ({ maxColor }) => maxColor,
-    transition: () => ({
-      duration: Math.random() * 500 + 50,
-      delay: Math.random() * 500 + 10,
-    }),
-  },
-})
+import SplitText from 'src/gsap-plugins/SplitText'
+import { TimelineMax, Circ } from 'gsap/all'
 
 type State = {
   elements: array,
@@ -50,74 +25,42 @@ class CrazyText extends Component<Props, State> {
     elements: [],
     pose: 'light',
   }
-  timeout = null
-
-  generateElements() {
-    let { children, baseColor } = this.props
-    const baseColorObj = Color(baseColor)
-    let childrenText
-    if (!children.props) {
-      childrenText = [children]
-    } else {
-      childrenText = children.props.children
-    }
-    const letters = _(childrenText)
-      .map(child => (_.isString(child) ? Array.from(child) : child))
-      .flatten()
-      .map((child, i) => {
-        const num = Math.random() / this.props.range
-        let newColor = null
-        switch (this.props.mode) {
-          case 'lighten':
-            newColor = baseColorObj.lighten(num).hex()
-            break
-          case 'darken':
-          default:
-            newColor = baseColorObj.darken(num).hex()
-        }
-        return (
-          <Letter
-            num={num}
-            minColor={baseColorObj.hex()}
-            maxColor={newColor}
-            key={i}
-          >
-            {child}
-          </Letter>
-        )
-      })
-      .value()
-    return letters
-  }
-
-  togglePose() {
-    this.setState({
-      pose: this.state.pose === 'light' ? 'dark' : 'light',
-    })
-  }
+  textToSplitElement = null
+  timeline = null
 
   componentDidMount() {
+    const elements = new SplitText(this.textToSplitElement)
+    this.setState({ elements })
+    this.timeline = new TimelineMax({})
+    const colorObj = new Color(this.props.baseColor)
+    const toColor = colorObj[this.props.mode](this.props.range)
+
     const self = this
-    ;(function loop() {
-      const rand = Math.round(Math.random() * 500) + 100
-      self.timeout = setTimeout(function() {
-        self.togglePose()
-        loop()
-      }, rand)
-    })()
 
-    this.setState({ elements: this.generateElements() })
-  }
-
-  componentWillUnmount() {
-    window.clearTimeout(this.timeout)
+    let i = 0
+    elements.chars.forEach(char => {
+      ;(function animate() {
+        const duration = Math.random() * 0.5 + 0.3
+        new TimelineMax()
+          .to(char, duration, {
+            startAt: { color: self.props.baseColor },
+            delay: Math.random() * 0.5 + 0.01,
+            ease: Circ.easeIn,
+            color: colorObj[self.props.mode](
+              self.props.range * Math.random()
+            ).hex(),
+          })
+          .addPause('+=' + (Math.random() + 0.1))
+          .addCallback(animate)
+      })()
+    })
   }
 
   render() {
     return (
-      <Letters initialPose='light' pose={this.state.pose}>
-        {this.state.elements}
-      </Letters>
+      <span ref={x => (this.textToSplitElement = x)}>
+        {this.props.children}
+      </span>
     )
   }
 }

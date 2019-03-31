@@ -67,7 +67,7 @@ class ContactMe extends React.Component<State, Props> {
     return (
       <>
         <TaglineSection
-          crazyTextRange={2}
+          crazyTextRange={0.3}
           title={
             <>
               Let's

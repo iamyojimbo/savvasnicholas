@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58229e41-0740-4e3a-b2a4-00c739ef4a38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/crazy-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/crazy-text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/testimonial.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/testimonial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/data.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/components/testimonial.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="191" lean-forward="true" selection-start-line="24" selection-start-column="191" selection-end-line="24" selection-end-column="191" />
             </state>
           </provider>
         </entry>
@@ -51,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#8#48#0" expanded="true" />
               </folding>
@@ -78,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="331" column="24" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
+              <caret line="331" column="24" lean-forward="true" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
               <folding>
                 <element signature="e#10#50#0" expanded="true" />
               </folding>
@@ -117,10 +125,10 @@
       <find>withTheme</find>
       <find>cons</find>
       <find>flex</find>
-      <find>console.log</find>
       <find>setTime</find>
       <find>interval</find>
       <find>console.</find>
+      <find>console.log</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/src</dir>
@@ -158,19 +166,19 @@
         <option value="$PROJECT_DIR$/app/gatsby-config.js" />
         <option value="$PROJECT_DIR$/app/src/components/testimonials-old.js" />
         <option value="$PROJECT_DIR$/app/src/theme.js" />
-        <option value="$PROJECT_DIR$/app/src/data.js" />
         <option value="$PROJECT_DIR$/app/src/components/header.js" />
         <option value="$PROJECT_DIR$/app/src/pages/testimonials.js" />
         <option value="$PROJECT_DIR$/app/src/components/contact-me.js" />
         <option value="$PROJECT_DIR$/app/package.json" />
         <option value="$PROJECT_DIR$/app/src/components/tagline-section.js" />
         <option value="$PROJECT_DIR$/app/src/components/testimonials.js" />
-        <option value="$PROJECT_DIR$/app/src/components/testimonial.js" />
         <option value="$PROJECT_DIR$/app/src/components/layout.js" />
-        <option value="$PROJECT_DIR$/app/src/components/crazy-text.js" />
         <option value="$PROJECT_DIR$/app/src/components/splash-background.js" />
         <option value="$PROJECT_DIR$/app/src/components/stripe-box.js" />
         <option value="$PROJECT_DIR$/app/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/app/src/components/crazy-text.js" />
+        <option value="$PROJECT_DIR$/app/src/components/testimonial.js" />
+        <option value="$PROJECT_DIR$/app/src/data.js" />
       </list>
     </option>
   </component>
@@ -392,12 +400,12 @@
       <workItem from="1552908825363" duration="30666000" />
       <workItem from="1553162037962" duration="147202000" />
       <workItem from="1554118488969" duration="301000" />
-      <workItem from="1555327014114" duration="192000" />
+      <workItem from="1555327014114" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232865000" />
+    <option name="totallyTimeSpent" value="233147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -633,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/components/tagline-section.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -678,39 +679,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/testimonial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="e#8#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,10 +706,41 @@
     <entry file="file://$PROJECT_DIR$/app/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="331" column="24" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
+          <caret line="331" column="24" lean-forward="true" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
           <folding>
             <element signature="e#10#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/crazy-text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#8#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/testimonials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/components/testimonial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="191" lean-forward="true" selection-start-line="24" selection-start-column="191" selection-end-line="24" selection-end-column="191" />
         </state>
       </provider>
     </entry>

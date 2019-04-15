@@ -57,7 +57,6 @@ class CrazyText extends Component<Props, State> {
   }
 
   handleEnter = () => {
-    console.log('Enter')
     this.randomColorsAnimation(this.elements)
     this.entryTimeline.play()
     this.setState({ isPaused: false })
@@ -65,7 +64,6 @@ class CrazyText extends Component<Props, State> {
   }
 
   handleExit = () => {
-    console.log('Exit')
     this.entryTimeline.reverse()
     this.setState({ isPaused: true })
     this.randomTimelines.forEach(tl => tl.pause())

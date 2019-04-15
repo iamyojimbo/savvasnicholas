@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { rhythm, scale } from 'src/typography'
 import Color from 'color'
 import React from 'react'
-import { Link } from 'gatsby'
 import { HeaderNavLink } from 'src/components/header'
 
 class TestimonialComp extends Component {

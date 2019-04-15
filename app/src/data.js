@@ -19,18 +19,18 @@ export const testimonials = [
     name: 'Sam Parlett',
     role: 'Co-Founder',
     company: 'Shield Diagnostics',
-    comment: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua.`,
-    extract: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua.`,
+    comment: `Savvas is that rare breed of software developer, being both technically talented whilst being laser focused on solving complex business problems with simple technical solutions.
+              As a SCRUM & agile evangelist, he spreads best practices throughout the organization and therefore is not only a fantastic individual contributor, but also a force multiplier. 
+              Hard working and meticulous, Savvas will get the job done.`,
+    extract: `Savvas is that rare breed of software developer, being both technically talented whilst being laser focused on solving complex business problems with simple technical solutions.`,
   },
-  {
-    name: 'Fred Turner',
-    role: 'Co-Founder',
-    company: 'Shield Diagnostics',
-    comment: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-              totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
-    extract: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-              totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
-  },
+  // {
+  //   name: 'Fred Turner',
+  //   role: 'Co-Founder',
+  //   company: 'Shield Diagnostics',
+  //   comment: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+  //             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
+  //   extract: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+  //             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
+  // },
 ]

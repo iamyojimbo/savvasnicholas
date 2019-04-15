@@ -329,7 +329,7 @@ class IndexPage extends Component<Props, State> {
                 <br />
                 infinite
                 <br />
-                world
+                world of
                 <br />
                 technology.
               </>

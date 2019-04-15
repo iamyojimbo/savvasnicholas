@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { rhythm } from 'src/typography'
 import React from 'react'
+import { IconContext } from 'react-icons'
 import {
   FaAngellist,
   FaEnvelope,
@@ -19,9 +20,10 @@ export const SideLinksContainer = styled.div`
   a {
     color: ${props => props.theme.color.contrast.main};
     margin-left: ${rhythm(1 / 2)};
-    margin-left: ${rhythm(1 / 2)};
     height: ${rhythm(3 / 4)};
+    width: ${rhythm(3 / 4)};
     transition-duration: 0.25s;
+    display: flex;
   }
   a:visited {
     color: ${props => props.theme.color.contrast.main};
@@ -70,11 +72,13 @@ const SideLink = ({ icon, iconSize, ...props }) => (
 )
 
 const SideLinks = () => (
-  <SideLinksContainer>
-    {linksList.map((link, index) => (
-      <SideLink key={index} iconSize={sideLinkSize} {...link} />
-    ))}
-  </SideLinksContainer>
+  <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
+    <SideLinksContainer>
+      {linksList.map((link, index) => (
+        <SideLink key={index} iconSize={sideLinkSize} {...link} />
+      ))}
+    </SideLinksContainer>
+  </IconContext.Provider>
 )
 
 export default SideLinks

@@ -29,7 +29,6 @@ function StripeBox({ colors, children }) {
             points='0,0 100,100 0,100'
             style={{ fill: colors.bottomStripe }}
           />
-          <polygon points='0,0 0,3 100,100 100,97 0,0' fill={'black'} />
         </svg>
       </StripeBoxSvg>
     </StripeContainer>
